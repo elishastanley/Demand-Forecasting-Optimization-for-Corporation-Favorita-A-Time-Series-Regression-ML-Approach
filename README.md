@@ -2,6 +2,8 @@
 
 Demand Forecasting Optimization for Corporation Favorita: A Time Series Regression ML Approach
 
+![alt text](<images\0JX3-0nZ6nWACUM6E.png>)
+
 ## Project Overview
 
 This project aims to optimize inventory management for Corporation Favorita, a large grocery retailer in Ecuador. By developing machine learning models to forecast product demand across various stores, the project seeks to ensure the right quantity of products is always in stock. The key questions address the impact of various factors on sales, including promotions, holidays, and external events. The outcomes include predictive models that aid in inventory decisions, enhancing customer satisfaction and minimizing costs.
@@ -13,6 +15,7 @@ This project aims to optimize inventory management for Corporation Favorita, a l
 - [Data Cleaning](#Data-Cleaning)
 - [Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis)
 - [Hypotheses Testing](#Hypotheses-Testing)
+- [Power BI Dashboard](#power-bi-dashboard)
 - [Analytical Questions](#Analytical-Questions)
 - [Modeling and Evaluation](#Modeling-and-Evaluation)
 - [Predictions](#Predictions)
@@ -21,8 +24,7 @@ This project aims to optimize inventory management for Corporation Favorita, a l
 - [Usage](#usage)
 - [Contributing](#Contributing)
 - [License](#License)
-- [Authors and Acknowledgment](#Authors-and-Acknowledgment)
-- [Project Status](#Project-Status)
+- [Contact](#contact)
 
 ## Business Understanding
 
@@ -40,6 +42,12 @@ To achieve this goal, we will build machine learning models to forecast the dema
 
 1. Null Hypothesis (H0): Promotions do not have a significant impact on sales.
 2. Alternative Hypothesis (H1): Promotions have a significant impact on sales.
+
+## Power BI Dashboard
+
+[Power BI LIVE! Link](https://app.powerbi.com/view?r=eyJrIjoiYmEzYzg3YjctMmVkMS00NzE5LTkxYjMtODEzMWMwOGI3ODEyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9)
+
+![images/Screenshot 2024-07-07 203540.png](<images\Screenshot 2024-08-08 113957.png>)
 
 ## Data Collection
 
@@ -96,3 +104,11 @@ pip install -r requirements.txt
 git clone <https://github.com/yourusername/yourrepository.git>
 cd yourrepository
 ```
+
+## Contact
+
+For any queries regarding this project, please contact:
+
+Elisha Stanley - <elishastanley255@gmail.com>
+
+Thank you for visiting this repository, and I hope you find the Machine Learning Project useful!
