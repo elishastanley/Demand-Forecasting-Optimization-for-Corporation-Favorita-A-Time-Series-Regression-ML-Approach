@@ -8,24 +8,6 @@ Demand Forecasting Optimization for Corporation Favorita: A Time Series Regressi
 
 This project aims to optimize inventory management for Corporation Favorita, a large grocery retailer in Ecuador. By developing machine learning models to forecast product demand across various stores, the project seeks to ensure the right quantity of products is always in stock. The key questions address the impact of various factors on sales, including promotions, holidays, and external events. The outcomes include predictive models that aid in inventory decisions, enhancing customer satisfaction and minimizing costs.
 
-## Table of Contents
-
-- [Business Understanding](#business-understanding)
-- [Data Collection](#Data-Collection)
-- [Data Cleaning](#Data-Cleaning)
-- [Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis)
-- [Hypotheses Testing](#Hypotheses-Testing)
-- [Power BI Dashboard](#power-bi-dashboard)
-- [Analytical Questions](#Analytical-Questions)
-- [Modeling and Evaluation](#Modeling-and-Evaluation)
-- [Predictions](#Predictions)
-- [Saving](#Saving)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#Contributing)
-- [License](#License)
-- [Contact](#contact)
-
 ## Business Understanding
 
 Corporation Favorita, a large grocery retailer based in Ecuador, aims to optimize its inventory management to ensure the right quantity of products is always in stock across its various locations. Effective inventory management is critical for maintaining high levels of customer satisfaction and minimizing costs associated with overstocking or stockouts.
@@ -51,7 +33,7 @@ To achieve this goal, we will build machine learning models to forecast the dema
 
 ## Data Collection
 
-Detail the sources of data, methods of data acquisition, and any initial data handling considerations.
+- Azubi Africa's SQL Server database, GitHub repository and OneDrive.
 
 ### Data Sources
 
@@ -63,43 +45,55 @@ Detail the sources of data, methods of data acquisition, and any initial data ha
 - **holidays_events.csv**: Information about holidays and events, including special designations like transferred, bridge, and workdays.
 - **sample_submission.csv**: A sample submission file for formatting predictions.
 
-## Data Cleaning
-
-Explain the steps taken to clean and preprocess the data, including handling missing values, outliers, and data transformation.
 
 ## Exploratory Data Analysis (EDA)
 
 Describe the techniques used for exploring the data, including visualizations, statistical summaries, and any initial findings.
 
-## Hypotheses Testing
-
-Outline any hypotheses formed from the data exploration phase and the statistical tests used to confirm or reject them.
-
 ## Analytical Questions
 
-List the key questions that guide the analysis and how the data answers these questions.
+**Questions:**
+
+- Is the train dataset complete (has all the required dates)?
+- Which dates have the lowest and highest sales for each year?
+- Did the earthquake impact sales?
+- Are certain groups of stores making more sales than others? (Cluster, city, state, type)
+- Are sales affected by promotions, oil prices and holidays?
+- What analysis can we get from the date and its extractable features?
+- What is the difference between RMSLE, RMSE, MSE (or why is the MAE greater than all of them?)
+- What is the total sales made each year by the corporation?
+
+**Visualization Tools:**
+
+- Matplotlib
+- Seaborn
 
 ## Modeling and Evaluation
 
-Discuss the models used, the rationale for their selection, and their performance metrics.
+Model Training
+- DecisionTree
+- RidgeRegression
+- LinearRegression
+- XGBoost
+
+Model Evaluation
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Mean Squared Logarithmic Error (MSLE)
+- Root Mean Squared Logarithmic Error (RMSLE)
 
 ## Predictions
 
-Describe how the model is used to make predictions and any considerations for its implementation.
-
-## Saving
-
-Explain how results, models, or data are saved and stored.
+Predicted on Test Dataset
 
 ## Installation
-
-Provide instructions on how to set up and run the project, including how to install required software and libraries.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Clone the repository
+### Clone the repository
 ```bash
 git clone <https://github.com/elishastanley/Demand-Forecasting-Optimization-for-Corporation-Favorita-A-Time-Series-Regression-ML-Approach.git>
 
