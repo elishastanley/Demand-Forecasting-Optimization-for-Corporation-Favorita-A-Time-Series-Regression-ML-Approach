@@ -2,7 +2,7 @@
 
 Demand Forecasting Optimization for Corporation Favorita: A Time Series Regression ML Approach
 
-![alt text](<images\0JX3-0nZ6nWACUM6E.png>)
+![alt text](<images/>0JX3-0nZ6nWACUM6E.png>)
 
 ## Project Overview
 
@@ -47,7 +47,7 @@ To achieve this goal, we will build machine learning models to forecast the dema
 
 [Power BI LIVE! Link](https://app.powerbi.com/view?r=eyJrIjoiYmEzYzg3YjctMmVkMS00NzE5LTkxYjMtODEzMWMwOGI3ODEyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9)
 
-![images/Screenshot 2024-07-07 203540.png](<images\Screenshot 2024-08-08 113957.png>)
+![images/Screenshot 2024-07-07 203540.png](<images/>Screenshot 2024-08-08 113957.png>)
 
 ## Data Collection
 
@@ -101,8 +101,9 @@ pip install -r requirements.txt
 
 ## Clone the repository
 ```bash
-git clone <https://github.com/yourusername/yourrepository.git>
-cd yourrepository
+git clone <https://github.com/elishastanley/Demand-Forecasting-Optimization-for-Corporation-Favorita-A-Time-Series-Regression-ML-Approach.git>
+
+cd Demand Forecasting Optimization for Corporation Favorita A Time Series Regression ML Approach
 ```
 
 ## Contact
