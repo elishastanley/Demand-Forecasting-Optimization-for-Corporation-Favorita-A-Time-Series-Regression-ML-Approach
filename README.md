@@ -1,6 +1,4 @@
-# Project Title
-
-Demand Forecasting Optimization for Corporation Favorita: A Time Series Regression ML Approach
+# Demand Forecasting Optimization for Corporation Favorita: A Time Series Regression ML Approach
 
 ![Time series Forecast](<images/0JX3-0nZ6nWACUM6E.png>)
 
