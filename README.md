@@ -85,11 +85,6 @@ Model Evaluation
 
 Predicted on Test Dataset
 
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Clone the repository
 ```bash
